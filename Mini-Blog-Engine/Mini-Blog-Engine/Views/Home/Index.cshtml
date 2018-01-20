@@ -1,25 +1,32 @@
-﻿@{
-    ViewBag.Title = "Login";
+﻿@model List<Mini_Blog_Engine.Models.Post>
+@{
+    ViewBag.Title = "Mini-Blog-Engine";
 }
+
+<div class="jumbotron">
+	<h1>Mini-Blog-Engine</h1>
+	<p class="lead">Module 183 Project</p>
+</div>
 
 <div class="row" style="margin-top:80px;">
 
-    <div class="col-lg-8 col-lg-offset-2">
-
-        <legend>Login</legend>
-
-        <form class="well" action="~/Home/Login" method="post">
-
-            <legend><small>Username</small></legend>
-            <input type="text" name="username" value="" placeholder="Username" class="form-control" />
-            <br/>
-
-
-            <legend><small>Password</small></legend>
-            <input type="password" name="password" placeholder="••••••••" class="form-control" />
-            <br/>
-            
-            <input type="submit" name="" value="Log In" class="btn btn-primary">
-        </form>
-    </div>
+	<div class="col-lg-8 col-lg-offset-2">
+		<table class="table table-hover">
+			<tr>
+				<th>Title</th>
+				<th>Description</th>
+				<th>Content</th>
+				<th>Detailansicht</th>
+			</tr>
+			@foreach(var post in Model)
+			{
+				<tr>
+					<td>@post.Title</td>  
+					<td>@post.Description</td>  
+					<td>@post.Content</td> 
+					<td>@Html.ActionLink("Details", "Index", "Post", new { id = post.Id }, null)</td>
+				</tr>
+			}
+		</table>
+	</div>
 </div>

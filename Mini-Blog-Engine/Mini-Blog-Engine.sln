@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-Blog-Engine", "Mini-Blog-Engine\Mini-Blog-Engine.csproj", "{83AE9C2D-3A3C-4D55-9CB6-1C13D5754273}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-Blog-Engine", "Mini-Blog-Engine\Mini-Blog-Engine.csproj", "{2F15CFF4-55DC-4C0C-A3F4-4A1185AA5C27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{83AE9C2D-3A3C-4D55-9CB6-1C13D5754273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83AE9C2D-3A3C-4D55-9CB6-1C13D5754273}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83AE9C2D-3A3C-4D55-9CB6-1C13D5754273}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83AE9C2D-3A3C-4D55-9CB6-1C13D5754273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F15CFF4-55DC-4C0C-A3F4-4A1185AA5C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F15CFF4-55DC-4C0C-A3F4-4A1185AA5C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F15CFF4-55DC-4C0C-A3F4-4A1185AA5C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F15CFF4-55DC-4C0C-A3F4-4A1185AA5C27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2F363F9A-1CB1-4F82-858E-422B40A01146}
+		SolutionGuid = {1248F056-C587-41DC-8ED7-F888AA05CB86}
 	EndGlobalSection
 EndGlobal

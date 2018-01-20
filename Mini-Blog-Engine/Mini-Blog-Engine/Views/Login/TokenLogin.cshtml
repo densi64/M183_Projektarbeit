@@ -1,0 +1,25 @@
+﻿@model Mini_Blog_Engine.Models.UserLogin
+@{
+    ViewBag.Title = "TokenLogin";
+}
+<h2>TokenLogin</h2>
+
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2" style="margin-top:60px;">
+        <form class="well" action="~/Login/TokenLogin" method="post">
+
+            <input type="hidden" name="username" value="@Model.Username" />
+
+            <input type="hidden" name="password" value="@Model.Password" />
+
+            <label>Token</label>
+            <input class="form-control" name="token" type="text" />
+            <br /><br />
+            <button type="submit" class="btn btn-primary">Login</button>
+            <br />
+
+            <div style="color: red">@ViewBag.Message</div>
+
+        </form>
+    </div>
+</div>

@@ -10,6 +10,8 @@ namespace Mini_Blog_Engine
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        public static string[] Roles;
+        public static Dictionary<string, object> UserRoles;
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();

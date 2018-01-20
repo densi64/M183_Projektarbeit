@@ -1,0 +1,25 @@
+﻿@{
+	ViewBag.Title = "Login";
+}
+
+<div class="row" style="margin-top:80px;">
+   
+	<div class="col-lg-8 col-lg-offset-2">
+
+		<legend>Log In</legend>
+
+        <form class="well" action="~/Login/Login" method="post">
+
+            <legend><small>Username</small></legend>
+            <input type="text" name="username" placeholder="Username" value="" class="form-control" />
+            <br />
+            <legend><small>Password</small></legend>
+            <input type="password" name="password" placeholder="••••••••" value="" class="form-control" />
+            <br />
+
+            <input type="submit" name="" value="Log In" class="btn btn-primary">
+
+            <div style="color: red;margin-top: 10px">@ViewBag.Message</div>
+        </form>        
+	</div>
+</div>
