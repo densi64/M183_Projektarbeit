@@ -46,3 +46,25 @@ namespace Mini_Blog_Engine.Controllers
 		}
 	}
 }
+
+
+/*
+ * Frage 1:  Warum haben Sie sich für gerade für den Hash Algorithmus (Usernamen & Passwort) entschieden?
+ * 
+ * Wir haben den sha256 Algorithmus verwendet, wenn wir mehr Zeit für das Projekt gehabt hätten.
+ * Wir hätten uns für den SHA-3 Algorithmus entschieden, da dies der aktuellste und somit unserer Meinung nach der sicherste Algorithmus ist.
+ *
+ * 
+ * 
+ * Frage 2: In der User-Login-Tabelle ist noch ein Feld für die IP-Adresse Reserviert. Welche Attacke lässt sich dadurch verhindern?
+ * 
+ * Über die Session-ID eines Benutzers einloggen
+ * 
+ * 
+ * 
+ * Frage 3:  Erklären Sie, wie diese Attacke genau funktioniert und inwiefern die Gegenmassnahmen die Attacke vereitelt?
+ * 
+ * Der Hacker "klaut" die Session-ID eines bereits vorhandenen Benutzers. Die Gegenmassnahme dafür ist das Abfragen der IP-Adresse. Man kann somit überprüfen, 
+ * ob es sich bei der Anmeldung um eine fremde IP-Adresse und somit auch um einen potenziellen Hacker handelt.
+ *
+ */
